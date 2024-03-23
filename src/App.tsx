@@ -1,5 +1,5 @@
 import { PageStyle as S } from './App.styled';
-import { useMainBanner } from './hooks/useMainBanner';
+import { useMainBanner } from './hooks/mainBanner/useMainBanner';
 import MainBanner from './components/MainBanner/MainBanner';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 
 
       <S.BestItems>
-        
+
       </S.BestItems>
     </S.Page>
   );
