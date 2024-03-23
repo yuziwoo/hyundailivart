@@ -1,16 +1,6 @@
 import styled from 'styled-components';
 import { theme } from '../../../styles/theme';
 
-const Component = styled.div`
-  width: 100%;
-  cursor: pointer;
-  margin-bottom: 44px;
-
-  @media screen and (max-width: 500px) {
-    margin-bottom: 28px;
-  }
-`;
-
 const Thumb = styled.div`
   background-size: cover;
   background-position: center center;
@@ -55,9 +45,25 @@ const Name = styled.p`
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  color: ${theme.color.WHITE};
 
   @media screen and (max-width: 500px) {
     font-size: 15px;
+  }
+`;
+
+const Component = styled.div`
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 44px;
+  text-align: left;
+
+  @media screen and (max-width: 500px) {
+    margin-bottom: 28px;
+  }
+
+  &:hover ${Name} {
+    text-decoration: underline;
   }
 `;
 
@@ -81,6 +87,7 @@ const FinalPrice = styled.p`
   font-size: 18px;
   font-weight: 500;
   padding-top: 15px;
+  color: ${theme.color.WHITE};
 
   @media screen and (max-width: 500px) {
     font-size: 15px;

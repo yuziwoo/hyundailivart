@@ -19,15 +19,15 @@ const BestItems = ({ itemGroups }: BestItemsProps) => {
       <S.Title>BEST</S.Title>
       <S.Category>
         {itemGroups.map(({ title }, index) => (
-          <S.CategoryName
-            key={title}
-            $isActive={index === activeGroupIndex}
-            onClick={() => {
-              setActiveGroupIndex(index);
-            }}
-          >
-            {title}
-          </S.CategoryName>
+          <S.CategoryNameWrap key={title}>
+            <MotionButton
+              onClick={() => {
+                setActiveGroupIndex(index);
+              }}
+            >
+              <S.CategoryName $isActive={index === activeGroupIndex}>{title}</S.CategoryName>
+            </MotionButton>
+          </S.CategoryNameWrap>
         ))}
       </S.Category>
 
