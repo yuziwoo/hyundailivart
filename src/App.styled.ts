@@ -11,7 +11,10 @@ const MainBanner = styled.section`
   }
 `;
 
+const BestItems = styled.section``
+
 export const PageStyle = {
   Page,
   MainBanner,
+  BestItems
 };

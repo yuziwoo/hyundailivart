@@ -10,7 +10,11 @@ function App() {
       <S.MainBanner>
         <MainBanner data={mainBannerQuery.data} />
       </S.MainBanner>
-      
+
+
+      <S.BestItems>
+        
+      </S.BestItems>
     </S.Page>
   );
 }
