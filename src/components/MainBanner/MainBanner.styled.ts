@@ -98,6 +98,7 @@ const Component = styled.div`
 const Slide = styled.div`
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 `;
 
 const Text = styled.div`
@@ -105,7 +106,8 @@ const Text = styled.div`
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 6.6%;
+  padding-bottom: 6.6%;
+  pointer-events: none;
 `;
 
 const Title = styled.h1<{ $color: string }>`
