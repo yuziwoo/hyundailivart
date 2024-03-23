@@ -1,6 +1,9 @@
 const color = {
   BLACK: '#000',
   WHITE: '#fff',
+
+  BACKGROUND: '#1D1D1D',
+  BASIC: '#FFF',
 };
 
 const gradient = {};

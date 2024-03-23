@@ -24,7 +24,8 @@ html, body {
 
 body {
   font-family: ${theme.font.FAMILY_DEFAULT};
-  color: ${theme.color.BLACK};
+  color: ${theme.color.BASIC};
+  background: ${theme.color.BACKGROUND};
   width: 100%;
   overflow-x: hidden;
   word-break: keep-all;
