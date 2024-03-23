@@ -10,3 +10,8 @@ export type ProductGroupProps = {
   title: string;
   products: ProductThumbProps[];
 };
+
+export type RecommendedProductGroupProps = {
+  sectionTitle: string;
+  list: ProductGroupProps[];
+};
