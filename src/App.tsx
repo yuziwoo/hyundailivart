@@ -5,11 +5,14 @@ import BestItems from './components/BestItems/BestItems';
 import { useBestItems } from './hooks/bestItems/useBestItems';
 import { useRecommendedItems } from './hooks/recommendedItems/useRecommendedItems';
 import RecommendedItems from './components/RecommendedItems/RecommendedItems';
+import { useConcierge } from './hooks/concierge/useConcierge';
+import Concierge from './components/Concierge/Concierge';
 
 function App() {
   const { mainBannerQuery } = useMainBanner();
   const { bestItemsQuery } = useBestItems();
   const { recommendedItemsQuery } = useRecommendedItems();
+  const { conciergeQuery } = useConcierge();
 
   return (
     <S.Page className="App">
@@ -27,6 +30,10 @@ function App() {
             <RecommendedItems sectionTitle={sectionTitle} itemGroups={list} />
           </S.RecommendedItems>
         ))}
+
+      <S.Concierge>
+        <Concierge data={conciergeQuery.data} />
+      </S.Concierge>
     </S.Page>
   );
 }

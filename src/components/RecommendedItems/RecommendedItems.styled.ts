@@ -17,9 +17,14 @@ const Title = styled.h1`
   align-items: center;
 
   @media screen and (max-width: 500px) {
+    justify-content: flex-start;
     text-align: left;
     padding: 0 10px;
-    font-size: 36px;
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 22px;
   }
 `;
 
@@ -48,6 +53,19 @@ const PlusButton = styled.div`
 
   &::after {
     height: 18px;
+  }
+
+  @media screen and (max-width: 860px) {
+    width: 24px;
+    height: 24px;
+
+    &::before {
+      width: 12px;
+    }
+
+    &::after {
+      height: 12px;
+    }
   }
 `;
 

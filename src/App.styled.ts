@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-const Page = styled.main``;
+const Page = styled.main`
+  padding-bottom: 120px;
+`;
 
 const MainBanner = styled.section`
   width: 100%;
@@ -27,9 +29,18 @@ const RecommendedItems = styled.section`
   }
 `;
 
+const Concierge = styled.section`
+  padding-top: 120px;
+
+  @media screen and (max-width: 500px) {
+    padding-top: 80px;
+  }
+`;
+
 export const PageStyle = {
   Page,
   MainBanner,
   BestItems,
   RecommendedItems,
+  Concierge,
 };

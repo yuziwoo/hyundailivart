@@ -3,6 +3,7 @@ import { keyframes } from 'styled-components';
 const color = {
   BLACK: '#000',
   WHITE: '#fff',
+  GRAY2: '#EFEFEF',
   GRAY5: '#B9B9B9',
 
   BACKGROUND: '#1D1D1D',
