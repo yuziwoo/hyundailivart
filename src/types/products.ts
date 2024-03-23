@@ -8,5 +8,5 @@ export type ProductThumbProps = {
 
 export type ProductGroupProps = {
   title: string;
-  products: ProductThumbProps;
+  products: ProductThumbProps[];
 };

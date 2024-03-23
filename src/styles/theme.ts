@@ -1,9 +1,14 @@
+import { keyframes } from 'styled-components';
+
 const color = {
   BLACK: '#000',
   WHITE: '#fff',
+  GRAY5: '#B9B9B9',
 
   BACKGROUND: '#1D1D1D',
   BASIC: '#FFF',
+
+  BG_GREEN: '#87B06D',
 };
 
 const gradient = {};
@@ -14,7 +19,39 @@ const zIndex = {
   MODAL: 5000,
 };
 
-const animation = {};
+const animation = {
+  comeRight: keyframes`
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }`,
+  fallRight: keyframes`
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }`,
+
+  fadeIn: keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }`,
+  fadeUp: keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }`,
+};
 
 const lineHeight = {
   BASIC: 1.2,
