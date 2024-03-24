@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hyundailivart/static/css/main.c26f8caa.css",
+    "main.js": "/hyundailivart/static/js/main.8b8ed027.js",
+    "index.html": "/hyundailivart/index.html",
+    "main.c26f8caa.css.map": "/hyundailivart/static/css/main.c26f8caa.css.map",
+    "main.8b8ed027.js.map": "/hyundailivart/static/js/main.8b8ed027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c26f8caa.css",
+    "static/js/main.8b8ed027.js"
+  ]
+}

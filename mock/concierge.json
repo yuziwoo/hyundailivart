@@ -1,0 +1,17 @@
+[
+  {
+    "imgURL": "../img/item/concierge-1.jpg",
+    "title": "Paris Pastel",
+    "description": "빛의 도시, 로맨틱 감성의 따뜻한 파스텔톤 파리. 말랑말랑하고 스윗함이 느껴지는 로맨틱한 인테리어 무드를 파리 파스텔이라는 주제로 소개하고자 합니다."
+  },
+  {
+    "imgURL": "../img/item/concierge-2.jpg",
+    "title": "Helsinki Hygge",
+    "description": "가장 행복한 나라로 꼽히는 노르딕 국가에 위치한 헬싱키, 광활한 자연만큼 단순함을 추구하는 라이프스타일에 맞추어 집이라는 특별한 공간에 자연을 녹여냅니다."
+  },
+  {
+    "imgURL": "../img/item/concierge-3.jpg",
+    "title": "Brooklyn Bohemia",
+    "description": "자유분방한 예술가의 로프트, 작업실전, 세계의 트렌드를 주도하는 도시, 뉴욕에서도 빈티지하며 자유스러운 매력을 보여주는 브루클린의 감성을 담은 공간을 구현하는 가구를 제안합니다."
+  }
+]
