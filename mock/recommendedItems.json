@@ -6,28 +6,28 @@
         "title": "쭈인미 시리즈",
         "products": [
           {
-            "imgURL": "../img/item/item1-1.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item1-1.jpg",
             "name": "쭈인미 자개 사이드 테이블 F 블랙",
             "brand": "리바트 세계가구",
             "finalPrice": 145000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item1-2.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item1-2.jpg",
             "name": "쭈인미 자개 사이드 테이블 C 브라운",
             "brand": "리바트 세계가구",
             "finalPrice": 145000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item1-3.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item1-3.jpg",
             "name": "쭈인미 자개 사이드 테이블 B 아이보리",
             "brand": "리바트 세계가구",
             "finalPrice": 150000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item1-4.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item1-4.jpg",
             "name": "쭈인미 자개 사이드 테이블 A 옐로우",
             "brand": "리바트 세계가구",
             "finalPrice": 136000,
@@ -44,28 +44,28 @@
         "title": "커스터마이징 모듈 소파, 그래블",
         "products": [
           {
-            "imgURL": "../img/item/item2-1.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item2-1.jpg",
             "name": "그래블 4인 패브릭 소파",
             "brand": "리바트 세계가구",
             "finalPrice": 1011000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item2-2.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item2-2.jpg",
             "name": "그래블 4인 패브릭 소파 오픈형",
             "brand": "리바트 세계가구",
             "finalPrice": 919000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item2-3.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item2-3.jpg",
             "name": "그래블 1인 패브릭 소파",
             "brand": "리바트 세계가구",
             "finalPrice": 312000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item2-4.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item2-4.jpg",
             "name": "그래블 패브릭 소파 사다리꼴 스툴",
             "brand": "리바트 세계가구",
             "finalPrice": 234000,
@@ -82,28 +82,28 @@
         "title": "Magis, 마지스",
         "products": [
           {
-            "imgURL": "../img/item/item3-1.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item3-1.jpg",
             "name": "터피 식탁의자",
             "brand": "Magis",
             "finalPrice": 1032000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item3-2.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item3-2.jpg",
             "name": "라비올로 1인 체어",
             "brand": "Magis",
             "finalPrice": 117000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item3-3.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item3-3.jpg",
             "name": "삼손 1인 체어",
             "brand": "Magis",
             "finalPrice": 1341000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item3-4.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item3-4.jpg",
             "name": "에어 암체어",
             "brand": "Magis",
             "finalPrice": 322000,
@@ -120,28 +120,28 @@
         "title": "#핸드메이드 #케냐 전통공예  #Chloe 콜라보 ORIGINAL",
         "products": [
           {
-            "imgURL": "../img/item/item4-1.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item4-1.jpg",
             "name": "키온도 바스켓 M",
             "brand": "MIFUKO",
             "finalPrice": 108000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item4-2.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item4-2.jpg",
             "name": "키온도 고리 바스켓 XS",
             "brand": "MIFUKO",
             "finalPrice": 63000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item4-3.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item4-3.jpg",
             "name": "키온도 행잉 바스켓 S 브라운",
             "brand": "MIFUKO",
             "finalPrice": 103000,
             "event": []
           },
           {
-            "imgURL": "../img/item/item4-4.jpg",
+            "imgURL": "https://yuziwoo.github.io/hyundailivart/img/item/item4-4.jpg",
             "name": "키온도 뚜껑 바스켓 XS 브라운",
             "brand": "MIFUKO",
             "finalPrice": 72000,
