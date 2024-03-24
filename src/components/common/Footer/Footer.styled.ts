@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { theme } from '../../../styles/theme';
 
-const Component = styled.div`
+const Component = styled.footer`
   width: 100%;
   background: ${theme.color.BG_FOOTER};
   padding: 0 10px;

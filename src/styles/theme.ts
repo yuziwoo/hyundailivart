@@ -41,6 +41,14 @@ const animation = {
     transform: translateX(100%);
   }`,
 
+  comeDown: keyframes`
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }`,
+
   fadeIn: keyframes`
   from {
     opacity: 0;

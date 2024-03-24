@@ -8,6 +8,7 @@ import RecommendedItems from './components/RecommendedItems/RecommendedItems';
 import { useConcierge } from './hooks/concierge/useConcierge';
 import Concierge from './components/Concierge/Concierge';
 import Footer from './components/common/Footer/Footer';
+import Header from './components/common/Header/Header';
 
 function App() {
   const { mainBannerQuery } = useMainBanner();
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <S.Page className="App">
         <S.MainBanner>
           <MainBanner data={mainBannerQuery.data} />
