@@ -1,6 +1,6 @@
 import { theme } from '../../../../styles/theme';
 import { ComponentStyle as S } from './HeaderSubNav.styled';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useState } from 'react';
 
 const HeaderSubNav = () => {
   const subNav = [
