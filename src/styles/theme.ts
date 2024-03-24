@@ -3,13 +3,18 @@ import { keyframes } from 'styled-components';
 const color = {
   BLACK: '#000',
   WHITE: '#fff',
+  LOGO_GREEN: '#3E8B75',
+  LOGO_BROWN: '#C68C35',
   GRAY2: '#EFEFEF',
+  GRAY3: '#D3D3D3',
   GRAY5: '#B9B9B9',
+  GRAY7: '#8D8D8D',
 
   BACKGROUND: '#1D1D1D',
   BASIC: '#FFF',
 
   BG_GREEN: '#87B06D',
+  BG_FOOTER: '#333333',
 };
 
 const gradient = {};
