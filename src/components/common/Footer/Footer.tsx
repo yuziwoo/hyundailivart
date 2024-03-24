@@ -51,7 +51,10 @@ const Footer = () => {
                 {sns.map((num) => (
                   <S.SNSIcon key={num}>
                     <MotionButton>
-                      <img src={`../img/item/icon-link-${num}.png`} alt="SNS Icon" />
+                      <img
+                        src={`https://yuziwoo.github.io/hyundailivart/img/item/icon-link-${num}.png`}
+                        alt="SNS Icon"
+                      />
                     </MotionButton>
                   </S.SNSIcon>
                 ))}
@@ -92,7 +95,10 @@ const Footer = () => {
               <br />
               더욱 편하게 쇼핑하세요.
             </S.QRText>
-            <S.QRImg src="https://yuziwoo.github.io/hyundailivart/img/system/qr.png" alt="QR 이미지" />
+            <S.QRImg
+              src="https://yuziwoo.github.io/hyundailivart/img/system/qr.png"
+              alt="QR 이미지"
+            />
           </S.MobileQR>
         </S.RightPart>
       </S.TopPart>

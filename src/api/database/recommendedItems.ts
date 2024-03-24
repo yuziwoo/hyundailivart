@@ -7,7 +7,7 @@ import { Http } from '../http';
 
 export const getRecommendedItems = async () => {
   const data = await Http.getWithoutClient<RecommendedProductGroupProps[]>(
-    '../mock/recommendedItems.json'
+    'https://yuziwoo.github.io/hyundailivart/mock/recommendedItems.json'
   );
 
   return data;

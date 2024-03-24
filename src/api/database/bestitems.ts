@@ -6,7 +6,7 @@ import { Http } from '../http';
  */
 
 export const getBestItems = async () => {
-  const data = await Http.getWithoutClient<ProductGroupProps[]>('../mock/bestItems.json');
+  const data = await Http.getWithoutClient<ProductGroupProps[]>('https://yuziwoo.github.io/hyundailivart/mock/bestItems.json');
 
   return data;
 };

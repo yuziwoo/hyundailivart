@@ -6,7 +6,7 @@ import { Http } from '../http';
  */
 
 export const getMainBannerData = async () => {
-  const data = await Http.getWithoutClient<MainBannerAPIProps[]>('../mock/mainBanner.json');
+  const data = await Http.getWithoutClient<MainBannerAPIProps[]>('https://yuziwoo.github.io/hyundailivart/mock/mainBanner.json');
 
   return data;
 };

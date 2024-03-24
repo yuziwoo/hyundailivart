@@ -6,7 +6,7 @@ import { Http } from '../http';
  */
 
 export const getConciergeData = async () => {
-  const data = await Http.getWithoutClient<ConciergeDataProps[]>('../mock/concierge.json');
+  const data = await Http.getWithoutClient<ConciergeDataProps[]>('https://yuziwoo.github.io/hyundailivart/mock/concierge.json');
 
   return data;
 };
