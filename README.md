@@ -9,6 +9,8 @@
 
 ## 🚀 기술 스택
 
+- 작업 기간 : 1일
+
 - LANGUAGE
 
   - 언어 : React, TypeScript
