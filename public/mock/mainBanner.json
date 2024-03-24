@@ -1,0 +1,38 @@
+[
+  {
+    "imgURL": "../img/item/main-1.jpg",
+    "title": "SHOPPING CHANCE",
+    "description": "특별한 혜택으로 제안하는 인기상품",
+    "color": "white"
+  },
+  {
+    "imgURL": "../img/item/main-2.jpg",
+    "title": "일상이 여행이 되는 순간",
+    "description": "실용성을 겸비한 핸드메이드 컬렉션",
+    "color": "black"
+  },
+  {
+    "imgURL": "../img/item/main-3.jpg",
+    "title": "JUST THE TWO OF US",
+    "description": "두 사람의 공간, 신혼 추천템",
+    "color": "white"
+  },
+  {
+    "imgURL": "../img/item/main-4.jpg",
+    "title": "3월 UP-TO-DATE",
+    "description": "신제품 모듈소파, 그래블",
+    "color": "white"
+  },
+  {
+    "imgURL": "../img/item/main-5.jpg",
+    "title": "미드 센추리 모던",
+    "description": "식스티 시리즈를 만나보세요!",
+    "color": "white"
+  },
+  {
+    "imgURL": "../img/item/main-6.jpg",
+    "title": "COLORFUL SPACE PRISM",
+    "description": "세계가구가 제안하는 컬러 시리즈",
+    "color": "white"
+  }
+]
