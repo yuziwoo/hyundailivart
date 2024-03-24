@@ -92,7 +92,7 @@ const Footer = () => {
               <br />
               더욱 편하게 쇼핑하세요.
             </S.QRText>
-            <S.QRImg src="../img/system/qr.png" alt="QR 이미지" />
+            <S.QRImg src="https://yuziwoo.github.io/hyundailivart/img/system/qr.png" alt="QR 이미지" />
           </S.MobileQR>
         </S.RightPart>
       </S.TopPart>
